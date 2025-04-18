@@ -79,9 +79,14 @@ Rejected Customers:
 ## Overview
 All the input data is in data.csv
 ### How it works:
-  In command line, run:
+  Run the app, in command line, run:
     ```
       ruby main.rb
+    ```
+
+  Run tests, in command line run:
+    ```
+      rspec
     ```
 
 ### Classes:
