@@ -76,15 +76,15 @@ Rejected Customers:
 
 # Reasoning and Design
 
-# Overview
+## Overview
 All the input data is in data.csv
-How it works:
+### How it works:
   In command line, run:
     ```
       ruby main.rb
     ```
 
-Classes:
+### Classes:
   Bank
     Bank class represents an actual bank that processes loans
   BankBusiness
@@ -97,7 +97,7 @@ Classes:
   LoanStatus
     It's not actually a class but the statuses of a loan, it's very important so it's being extracted out in here.
 
-Reasoning:
+### Reasoning:
   There are actually endless ways to finish this assessment, but I would rather use a simple one which is easy to understand and straightforward, and I won't predict the future so much but will only do a little bit catering to some potentials needs.
 
   Due to the requirements of the output, I think a thoughts of put the loans/offers separately and treat the loan as an identity would be a very good choice. Meanwhile, we could and it might be more scalable but it might be unnecessary to also create a customer identity/class for customers. 
